@@ -1,0 +1,237 @@
+[
+    {
+    "name":1, 
+    "id":"Ferrari 488 spider ",
+    "désignation":"AS",
+    "prix":"216.900 EUR",
+    "catégorie":"Exotic",
+    "disponibilité":["tanger"," Rabat"," casablanca"],
+    "fournisseur":{
+        "company":"company",
+        "Adresse":"casablanca"
+    }
+},
+{
+    "name":2, 
+    "id":"Ferrari 488 Gtb",
+    "désignation":"AS",
+    "prix":"291.710 EUR",
+    "catégorie":"Exotic",
+    "disponibilité":["Tanger"," Rabat"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+},
+{
+    "name":3, 
+    "id":"Lamborghini Gallardo ",
+    "désignation":"AS",
+    "prix":"109.900 EUR",
+    "catégorie":"Coupé",
+    "disponibilité":["Tanger"," Rabat"," Casablanca"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+},
+{
+    "name":4, 
+    "id":"Porsche Panamera II",
+    "désignation":"AS",
+    "prix":"131.000 EUR",
+    "catégorie":"Sedan",
+    "disponibilité":["Tanger"," Rabat"," Casablanca"],
+    "fournisseur":{
+        "company":"company",
+        "Adresse":"casablanca"
+    }
+},
+{
+    "name":5, 
+    "id":"Porsche 911 Coupe V",
+    "désignation":"AS",
+    "prix":"116.990 EUR",
+    "catégorie":"Coupé",
+    "disponibilité":["Rabat"," casablanca"],
+    "fournisseur":{
+        "company":"company",
+        "Adresse":"casablanca"
+    }
+},
+{
+    "name":6, 
+    "id":"Audi A3 Sportback III",
+    "désignation":"AS",
+    "prix":"24.750 EUR",
+    "catégorie":"Sedan",
+    "disponibilité":["Tanger"," Rabat"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+},
+{
+    "name":7, 
+    "id":"Audi Rs3 Sportback III ",
+    "désignation":"AS",
+    "prix":"43.890 EUR",
+    "catégorie":"Hatchback",
+    "disponibilité":["Tanger"," Rabat"," Casablanca"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+},
+{
+    "name":8, 
+    "id":"Bmw X3 III",
+    "désignation":"AS",
+    "prix":"33.500 EUR",
+    "catégorie":"Suv",
+    "disponibilité":["Tanger"," Rabat"," Casablanca"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+},
+{
+    "name":9, 
+    "id":"Mercedes Classe C IV",
+    "désignation":"AS",
+    "prix":"22.600 EUR",
+    "catégorie":"Sedan",
+    "disponibilité":["Rabat"," Casablanca"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+},
+{
+    "name":10, 
+    "id":"mercedes-benz G63",
+    "désignation":"AS",
+    "prix":"145.100 EUR",
+    "catégorie":"Suv",
+    "disponibilité":["Tanger"," Rabat"," Casablanca"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+},
+{
+    "name":11, 
+    "id":"Bentley Continental Gt I",
+    "désignation":"AS",
+    "prix":"135.000 EUR",
+    "catégorie":"Coupé",
+    "disponibilité":["Tanger"," Rabat"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+},
+{
+    "name":12, 
+    "id":"Maserati Quattroporte VI",
+    "désignation":"AS",
+    "prix":"56.700 EUR",
+    "catégorie":"Sedan",
+    "disponibilité":["Tanger"," Rabat"," Casablanca"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+},
+{
+    "name":13, 
+    "id":"Maserati Quattroporte",
+    "désignation":"AS",
+    "prix":"70.700 EUR",
+    "catégorie":"Sedan",
+    "disponibilité":["Tanger"," Rabat"," Casablanca"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+}
+,
+{
+    "name":14, 
+    "id":"Toyota Supra Mk4",
+    "désignation":"AS",
+    "prix":"53.107 EUR",
+    "catégorie":"Exotic",
+    "disponibilité":[" Rabat"," Casablanca"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+},
+{
+    "name":15, 
+    "id":"Nissan Skyline R34",
+    "désignation":"AS",
+    "prix":"15.396 EUR",
+    "catégorie":"Exotic",
+    "disponibilité":["Tanger"," Rabat"," Casablanca"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+}
+,
+{
+    "name":16, 
+    "id":"Volkswagen Golf 7R",
+    "désignation":"AS",
+    "prix":"37.254 EUR",
+    "catégorie":"Sedan",
+    "disponibilité":["Tanger"," Casablanca"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+}
+,
+{
+    "name":17, 
+    "id":"DACIA Sandero",
+    "désignation":"AS",
+    "prix":"9,95 EUR",
+    "catégorie":"Suv",
+    "disponibilité":["Casablanca"," Tanger"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+},
+{
+    "name":18, 
+    "id":"DACIA Logan",
+    "désignation":"AS",
+    "prix":"9.243 EUR",
+    "catégorie":"Sedan",
+    "disponibilité":["Casablanca"," Rabat"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+}
+,
+{
+    "name":19, 
+    "id":"DACIA Duster",
+    "désignation":"AS",
+    "prix":"16,11 EUR",
+    "catégorie":"Sedan",
+    "disponibilité":["Rabat"],
+    "fournisseur":{
+        "company":"Company",
+        "Adresse":"Casablanca"
+    }
+}
+
+
+
+]

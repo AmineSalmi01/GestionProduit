@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Wire+One&display=swap');
+
+
+nav{
+font-family: 'Times New Roman', Times, serif;
+color: #fdd2aa;
+font-size: 20px;
+}
+header{
+    background-image: url("pexels-erik-mclean-4940921.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+h4{
+    padding-top: 180px;
+    padding-left: 80px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+strong{
+    color: #BEA530;
+}
+h4{
+    color: #FF7E06;
+}
+span{
+    color: white;
+}
+#logo{
+    height: 70px;
+    width: 70px;
+}
+#search{
+    border-color: #FF7E06;
+    color: #FF7E06;
+}
+#search:hover{
+    background-color: #FF7E06;
+    color: white;
+}
