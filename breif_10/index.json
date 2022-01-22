@@ -1,9 +1,9 @@
 [
     {
-    "name":1, 
-    "id":"Ferrari 488 spider ",
+    "id":1, 
+    "name":"Ferrari 488 spider ",
     "désignation":"AS",
-    "prix":"216.900 EUR",
+    "prix": 216.900,
     "catégorie":"Exotic",
     "disponibilité":["tanger"," Rabat"," casablanca"],
     "fournisseur":{
@@ -12,10 +12,10 @@
     }
 },
 {
-    "name":2, 
-    "id":"Ferrari 488 Gtb",
+    "id":2, 
+    "name":"Ferrari 488 Gtb",
     "désignation":"AS",
-    "prix":"291.710 EUR",
+    "prix":291.710 ,
     "catégorie":"Exotic",
     "disponibilité":["Tanger"," Rabat"],
     "fournisseur":{
@@ -24,10 +24,10 @@
     }
 },
 {
-    "name":3, 
-    "id":"Lamborghini Gallardo ",
+    "id":3, 
+    "name":"Lamborghini Gallardo ",
     "désignation":"AS",
-    "prix":"109.900 EUR",
+    "prix":109.900 ,
     "catégorie":"Coupé",
     "disponibilité":["Tanger"," Rabat"," Casablanca"],
     "fournisseur":{
@@ -36,10 +36,10 @@
     }
 },
 {
-    "name":4, 
-    "id":"Porsche Panamera II",
+    "id":4, 
+    "name":"Porsche Panamera II",
     "désignation":"AS",
-    "prix":"131.000 EUR",
+    "prix":131.000 ,
     "catégorie":"Sedan",
     "disponibilité":["Tanger"," Rabat"," Casablanca"],
     "fournisseur":{
@@ -48,10 +48,10 @@
     }
 },
 {
-    "name":5, 
-    "id":"Porsche 911 Coupe V",
+    "id":5, 
+    "name":"Porsche 911 Coupe V",
     "désignation":"AS",
-    "prix":"116.990 EUR",
+    "prix":116.990 ,
     "catégorie":"Coupé",
     "disponibilité":["Rabat"," casablanca"],
     "fournisseur":{
@@ -60,10 +60,10 @@
     }
 },
 {
-    "name":6, 
-    "id":"Audi A3 Sportback III",
+    "id":6, 
+    "name":"Audi A3 Sportback III",
     "désignation":"AS",
-    "prix":"24.750 EUR",
+    "prix":24.750 ,
     "catégorie":"Sedan",
     "disponibilité":["Tanger"," Rabat"],
     "fournisseur":{
@@ -72,10 +72,10 @@
     }
 },
 {
-    "name":7, 
-    "id":"Audi Rs3 Sportback III ",
+    "id":7, 
+    "name":"Audi Rs3 Sportback III ",
     "désignation":"AS",
-    "prix":"43.890 EUR",
+    "prix":43.890 ,
     "catégorie":"Hatchback",
     "disponibilité":["Tanger"," Rabat"," Casablanca"],
     "fournisseur":{
@@ -84,10 +84,10 @@
     }
 },
 {
-    "name":8, 
-    "id":"Bmw X3 III",
+    "id":8, 
+    "name":"Bmw X3 III",
     "désignation":"AS",
-    "prix":"33.500 EUR",
+    "prix":33.500 ,
     "catégorie":"Suv",
     "disponibilité":["Tanger"," Rabat"," Casablanca"],
     "fournisseur":{
@@ -96,10 +96,10 @@
     }
 },
 {
-    "name":9, 
-    "id":"Mercedes Classe C IV",
+    "id":9, 
+    "name":"Mercedes Classe C IV",
     "désignation":"AS",
-    "prix":"22.600 EUR",
+    "prix":22.600 ,
     "catégorie":"Sedan",
     "disponibilité":["Rabat"," Casablanca"],
     "fournisseur":{
@@ -108,10 +108,10 @@
     }
 },
 {
-    "name":10, 
-    "id":"mercedes-benz G63",
+    "id":10, 
+    "name":"mercedes-benz G63",
     "désignation":"AS",
-    "prix":"145.100 EUR",
+    "prix":145.100 ,
     "catégorie":"Suv",
     "disponibilité":["Tanger"," Rabat"," Casablanca"],
     "fournisseur":{
@@ -120,10 +120,10 @@
     }
 },
 {
-    "name":11, 
-    "id":"Bentley Continental Gt I",
+    "id":11, 
+    "name":"Bentley Continental Gt I",
     "désignation":"AS",
-    "prix":"135.000 EUR",
+    "prix":135.000 ,
     "catégorie":"Coupé",
     "disponibilité":["Tanger"," Rabat"],
     "fournisseur":{
@@ -132,10 +132,10 @@
     }
 },
 {
-    "name":12, 
-    "id":"Maserati Quattroporte VI",
+    "id":12, 
+    "name":"Maserati Quattroporte VI",
     "désignation":"AS",
-    "prix":"56.700 EUR",
+    "prix":56.700 ,
     "catégorie":"Sedan",
     "disponibilité":["Tanger"," Rabat"," Casablanca"],
     "fournisseur":{
@@ -144,10 +144,10 @@
     }
 },
 {
-    "name":13, 
-    "id":"Maserati Quattroporte",
+    "id":13, 
+    "name":"Maserati Quattroporte",
     "désignation":"AS",
-    "prix":"70.700 EUR",
+    "prix":70.700 ,
     "catégorie":"Sedan",
     "disponibilité":["Tanger"," Rabat"," Casablanca"],
     "fournisseur":{
@@ -157,10 +157,10 @@
 }
 ,
 {
-    "name":14, 
-    "id":"Toyota Supra Mk4",
+    "id":14, 
+    "name":"Toyota Supra Mk4",
     "désignation":"AS",
-    "prix":"53.107 EUR",
+    "prix":53.107 ,
     "catégorie":"Exotic",
     "disponibilité":[" Rabat"," Casablanca"],
     "fournisseur":{
@@ -169,10 +169,10 @@
     }
 },
 {
-    "name":15, 
-    "id":"Nissan Skyline R34",
+    "id":15, 
+    "name":"Nissan Skyline R34",
     "désignation":"AS",
-    "prix":"15.396 EUR",
+    "prix":15.396 ,
     "catégorie":"Exotic",
     "disponibilité":["Tanger"," Rabat"," Casablanca"],
     "fournisseur":{
@@ -182,10 +182,10 @@
 }
 ,
 {
-    "name":16, 
-    "id":"Volkswagen Golf 7R",
+    "id":16, 
+    "name":"Volkswagen Golf 7R",
     "désignation":"AS",
-    "prix":"37.254 EUR",
+    "prix":37.254 ,
     "catégorie":"Sedan",
     "disponibilité":["Tanger"," Casablanca"],
     "fournisseur":{
@@ -195,10 +195,10 @@
 }
 ,
 {
-    "name":17, 
-    "id":"DACIA Sandero",
+    "id":17, 
+    "name":"DACIA Sandero",
     "désignation":"AS",
-    "prix":"9,95 EUR",
+    "prix":9.95 ,
     "catégorie":"Suv",
     "disponibilité":["Casablanca"," Tanger"],
     "fournisseur":{
@@ -207,10 +207,10 @@
     }
 },
 {
-    "name":18, 
-    "id":"DACIA Logan",
+    "id":18, 
+    "name":"DACIA Logan",
     "désignation":"AS",
-    "prix":"9.243 EUR",
+    "prix":9.243 ,
     "catégorie":"Sedan",
     "disponibilité":["Casablanca"," Rabat"],
     "fournisseur":{
@@ -220,10 +220,10 @@
 }
 ,
 {
-    "name":19, 
-    "id":"DACIA Duster",
+    "id":19, 
+    "name":"DACIA Duster",
     "désignation":"AS",
-    "prix":"16,11 EUR",
+    "prix":16.11 ,
     "catégorie":"Sedan",
     "disponibilité":["Rabat"],
     "fournisseur":{

@@ -27,11 +27,11 @@
     <table class="table">
       <thead>
         <tr>
-          <th id="ID" scope="col">ID</th>
-          <th id="ID" scope="col">name</th>
-          <th id="DES" scope="col">désignation</th>
-          <th id="PRX" scope="col">Prix</th>
-          <th id="CAT" scope="col">catégorie</th>
+          <th id="ID" scope="col"><span onclick="sortNumber('id', 'asc')"> <a href="#">˄</a></span> ID <span  onclick="sortNumber('id', 'desc')"><a href="#">˅</a></span></th>
+          <th id="ID" scope="col"><span onclick="sortString('name', 'asc')"><a href="#">˄</a></span > name <span onclick="sortString('name', 'desc')"><a href="#">˅</a></span></th>
+          <th id="DES" scope="col"><span onclick="sortString('désignation', 'asc')"><a href="#">˄</a></span > désignation <span onclick="sortString('désignation', 'desc')"><a href="#">˅</a></span></th>
+          <th id="PRX" scope="col"><span onclick="sortNumber('prix', 'asc')"><a href="#">˄</a></span > Prix <span onclick="sortNumber('prix', 'desc')"><a href="#">˅</a></span></th>
+          <th id="CAT" scope="col"><span onclick="sortString('catégorie', 'asc')"><a href="#">˄</a></span > catégorie <span onclick="sortString('catégorie', 'desc')"><a href="#">˅</a></span></th>
           <th id="DISP" scope="col">disponibilité</th>
           <th id="FOUR" scope="col">fournisseur</th>
         </tr>

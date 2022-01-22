@@ -17,8 +17,8 @@ function fill(pr){
     pr.forEach(element => {
             var fourn_info = element.fournisseur["company"] +'<br>'+ element.fournisseur["Adresse"];
             $('#Tbody').append($('<tr>')
-            .append($('<td>').append(element.name))
             .append($('<td>').append(element.id))
+            .append($('<td>').append(element.name))
             .append($('<td>').append(element.désignation)) 
             .append($('<td>').append(element.prix)) 
             .append($('<td>').append(element.catégorie)) 
@@ -37,46 +37,39 @@ $(document).ready(function(){
     })
     
     //sorting
-    function sortTable(column, type) {
-
-        //Get and set order
-        //Use -data to store wheater it will be sorted ascending or descending
-        var order = $('.table thead tr>th:eq(' + column + ')').data('order');
-        order = order === 'ASC' ? 'DESC' : 'ASC';
-        $('.table thead tr>th:eq(' + column + ')').data('order', order);
-    
-    
-        $('#Tbody tr').sort(function(a, b) {
-    
-          a = $(a).find('td:eq(' + column + ')').text();
-          b = $(b).find('td:eq(' + column + ')').text();
-          switch (type) {
-            case 'text':
-              return order === 'ASC' ? a.localeCompare(b) : b.localeCompare(a);
-              break;
-            case 'number':
-              return order === 'ASC' ? a - b : b - a;
-              break;
-    
-          }
-    
-        }).appendTo('.table tbody');
+    function sortString(a, direction){
+      if(direction == "desc"){
+          myData.sort(function(w,y){
+              if(w[a].toLowerCase() > y[a].toLowerCase()){
+                return -1;
+              }
+          })
       }
-      $('#ID').click(function() {
-        sortTable(0, 'number');
-      });
-      $('#DES').click(function() {
-        sortTable(1, 'text');
-      });
-      $('#PRX').click(function() {
-        sortTable(2, 'number');
-      });
-      $('#CAT').click(function() {
-        sortTable(3, 'text');
-      });
-      $('#DISP').click(function() {
-        sortTable(4, 'text');
-      });
-      $('#FOUR').click(function() {
-        sortTable(5, 'text');
-      });
+      else if(direction == "asc"){
+          myData.sort(function(w,y){
+              if(w[a].toLowerCase() < y[a].toLowerCase()){
+                return -1;
+              }
+          })         
+      }
+      $('#Tbody').html("")
+      fill(myData)
+  }
+  function sortNumber(a, direction){
+    if(direction == "desc"){
+        myData.sort(function(w,y){
+            if(w[a] - y[a]){
+              return -1;
+            }
+        })
+    }
+    else if(direction == "asc"){
+        myData.sort(function(w,y){
+            if(y[a] - w[a]){
+              return -1;
+            }
+        })         
+    }
+    $('#Tbody').html("")
+    fill(myData)
+}

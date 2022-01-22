@@ -39,3 +39,6 @@ span{
     background-color: #FF7E06;
     color: white;
 }
+thead span{
+    color: black;
+}
